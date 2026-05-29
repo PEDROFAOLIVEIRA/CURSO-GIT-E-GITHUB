@@ -4,4 +4,12 @@ git add nome_arquivo -> adiciona arquivo para ser comitado
 git commit -m "msg" -> faz commit do que estava para ser commitado
 
 
-Alguns comandos estão no servidor > Y > estudos > full stack > git e git hub 
+Alguns comandos estão no servidor > Y > estudos > full stack > git e git hub
+
+
+Quando eu faço um `git commit` sem usar a opção `-m`, o Git abre um editor de texto no terminal, geralmente o Vim, para que eu escreva a mensagem do commit. Essa tela não serve para alterar o conteúdo do arquivo que eu editei, como por exemplo o `comandos_git.txt`. Ela serve apenas para registrar uma descrição da alteração que será salva no histórico do Git. Ou seja, o arquivo já foi alterado antes, quando eu editei e salvei seu conteúdo. No momento do commit, o Git só está pedindo uma mensagem para identificar aquela mudança dentro da linha do tempo do projeto.
+
+A mensagem escrita dentro do Vim funciona como uma etiqueta explicativa do commit. Ela deve resumir de forma clara o que foi feito, por exemplo: “Atualiza comandos básicos de Git”. As linhas que começam com `#` são comentários automáticos do Git e não entram na mensagem final do commit. Elas aparecem apenas para informar qual branch está sendo usada e quais arquivos estão preparados para serem registrados. Portanto, escrever uma mensagem nessa tela não altera o conteúdo do arquivo original; apenas define como aquela alteração será descrita no histórico.
+
+Para salvar o commit dentro do Vim, primeiro é necessário apertar `i` para entrar no modo de inserção, escrever a mensagem, apertar `Esc` para sair do modo de escrita e depois digitar `:wq` seguido de Enter. O comando `:wq` significa salvar e sair. Se eu quiser cancelar o commit, posso apertar `Esc`, digitar `:q!` e pressionar Enter. Para evitar cair nessa tela no futuro, posso usar o comando `git commit -m "mensagem do commit"`, informando a mensagem diretamente no terminal.
+ 
