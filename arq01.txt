@@ -1,0 +1,3 @@
+agora vai, nué possivel
+mais um teste para ver se vai dar certo
+pareceu que deu, agora vaicat arq01.txt
