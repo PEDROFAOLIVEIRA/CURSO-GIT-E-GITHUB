@@ -1,22 +1,33 @@
-# Curso TMW Git & GitHub 2025
+# Estudos de Git e GitHub
 
-Um curso para iniciantes aprenderem a trabalhar com versionamento de código e
-repositórios remotos com GitHub.
+Este repositório registra minha evolução nos estudos de Git e GitHub, com foco em versionamento de código, colaboração, organização de repositórios e boas práticas profissionais.
 
-Além disso, vamos trabalhar com GitFlow ao final do curso e Visual Studio Code.
+## Objetivo
 
-Confira tudo o que temos no nosso YouTube. É grátis! Segue o link:
+Aprender Git e GitHub de forma prática, entendendo não apenas os comandos, mas também o fluxo de trabalho usado em projetos reais de desenvolvimento de software.
 
-[Curso Git 2025](https://youtube.com/@teomewhy)
-Se liga no canal acima, tem muito conteúdo bacana!!!
+## Conteúdos estudados
 
-## Fluxo de trabalho Git local
+| Tema | Status |
+|---|---|
+| Criação de repositório | Concluído |
+| Commits | Concluído |
+| Branches | Em prática |
+| Merge | Em prática |
+| Resolução de conflitos | Em prática |
+| Pull Request | Em prática |
+| GitHub Flow | Em estudo |
+| Tags e releases | Próximo passo |
 
-01. `git checkout -b <nova-branch>`
-02. cria ou atualiza arquivos
-03. `git status`
-05. `git add *arquivos*`
-06. `git status`
-07. `git commit -m "minha mensagem"`
-08. `git checkout main`
-09. `git merge nova_branch`
+## Comandos praticados
+
+```bash
+git init
+git status
+git add .
+git commit -m "mensagem"
+git branch
+git checkout -b nova-branch
+git merge nome-da-branch
+git push
+git pull
